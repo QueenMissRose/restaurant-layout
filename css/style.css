@@ -1,0 +1,72 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* rem font size set to 10px */
+html {
+     font-size: 62.5%;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+/** Variables **/
+:root {
+     /* COLOURS */
+     --heading-text-color: #000;
+     --body-text-color: #222;
+     --body-background: #F2F6F7;
+     --accent-color: #EF8633;
+     /* font sizes*/
+     /* fonts */
+}
+
+body {
+
+}
+a {
+     text-decoration: none; /* remove underline */
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+     float: left;
+     height: 150px;
+     width: 100%;
+     border: 2px solid lavender;
+}
+section {
+     float: left;
+     height: 500px;
+     width: 100%;
+     border: 2px solid lavender;
+}
+
+footer {
+     float: left;
+     height: 200px;
+     width: 100%;
+     border: 2px solid lavender;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
